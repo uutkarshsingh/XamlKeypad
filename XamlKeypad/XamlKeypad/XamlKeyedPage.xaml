@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamlKeypad.XamlKeyedPage">
 
 
-<StackLayout>
+<StackLayout VerticalOptions="Center"
+             HorizontalOptions="Center">
 		<Label x:Name="displayLabel"
 				Font="Large"
 				VerticalOptions="Center"
@@ -13,27 +14,27 @@
 				IsEnabled="False"
 				Clicked="OnBackspaceButtonCLicked"/>
 		<StackLayout Orientation="Horizontal">
-			<Button Text="7" StyleId="7" Font="Large"
+			<Button Text="7" StyleId="7" Font="Large"  BackgroundColor="Purple"
 					Clicked="OnDigitButtonChanged"/>
-			<Button Text="8" StyleId="8" Font="Large"
+			<Button Text="8" StyleId="8" Font="Large"  BackgroundColor="Purple"
 					Clicked="OnDigitButtonChanged"/>
-			<Button Text="9" StyleId="9" Font="Large"
-					Clicked="OnDigitButtonChanged"/>
-		</StackLayout>
-		<StackLayout Orientation="Horizontal">
-			<Button Text="4" StyleId="4" Font="Large"
-					Clicked="OnDigitButtonChanged"/>
-			<Button Text="5" StyleId="5" Font="Large"
-					Clicked="OnDigitButtonChanged"/>
-			<Button Text="6" StyleId="6" Font="Large"
+			<Button Text="9" StyleId="9" Font="Large"  BackgroundColor="Purple"
 					Clicked="OnDigitButtonChanged"/>
 		</StackLayout>
 		<StackLayout Orientation="Horizontal">
-			<Button Text="1" StyleId="1" Font="Large"
+			<Button Text="4" StyleId="4" Font="Large" BackgroundColor="Purple"
 					Clicked="OnDigitButtonChanged"/>
-			<Button Text="2" StyleId="2" Font="Large"
+			<Button Text="5" StyleId="5" Font="Large" BackgroundColor="Purple"
 					Clicked="OnDigitButtonChanged"/>
-			<Button Text="3" StyleId="3" Font="Large"
+			<Button Text="6" StyleId="6" Font="Large" BackgroundColor="Purple"
+					Clicked="OnDigitButtonChanged"/>
+		</StackLayout>
+		<StackLayout Orientation="Horizontal">
+			<Button Text="1" StyleId="1" Font="Large" BackgroundColor="Purple"
+					Clicked="OnDigitButtonChanged"/>
+			<Button Text="2" StyleId="2" Font="Large" BackgroundColor="Purple"
+					Clicked="OnDigitButtonChanged"/>
+			<Button Text="3" StyleId="3" Font="Large" BackgroundColor="Purple"
 					Clicked="OnDigitButtonChanged"/>
 		</StackLayout>
 		 <Button Text="0" StyleId="0" Font="Large" Clicked="OnDigitButtonChanged" />
