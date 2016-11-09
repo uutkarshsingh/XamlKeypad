@@ -16,5 +16,9 @@ namespace XamlKeypad
 		{
 			System.Diagnostics.Debug.WriteLine("Digit tapped");		
 		}
+		public void OnBackspaceButtonCLicked(object sender, EventArgs e)
+		{ 
+			System.Diagnostics.Debug.WriteLine("BackSpace tapped");
+		}
 	}
 }

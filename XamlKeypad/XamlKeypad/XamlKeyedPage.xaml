@@ -36,6 +36,6 @@
 			<Button Text="3" StyleId="3" Font="Large"
 					Clicked="OnDigitButtonChanged"/>
 		</StackLayout>
-		 <Button Text="0" StyleId="0" Font="Large" Clicked="OnDigitButtonClicked" />
+		 <Button Text="0" StyleId="0" Font="Large" Clicked="OnDigitButtonChanged" />
 </StackLayout>
 </ContentPage>
